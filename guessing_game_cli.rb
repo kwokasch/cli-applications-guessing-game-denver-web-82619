@@ -11,3 +11,5 @@ def run_guessing_game
     puts "Sorry! The computer guessed #{comp_guess}."
   end
 end
+if input == "exit"
+    puts "Goodbye!"
