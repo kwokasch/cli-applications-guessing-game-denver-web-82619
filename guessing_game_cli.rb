@@ -4,11 +4,11 @@ def run_guessing_game
   roll = comp_guess.to_s
   input = gets.chomp 
   
-  if input == comp_guess
+  if input == roll
     puts "You guessed the correct number!"
   elsif input == "exit"
     puts "Goodbye!"
   else  
-    puts "Sorry! The computer guessed #{comp_guess}."
+    puts "Sorry! The computer guessed #{roll}."
   end
 end
