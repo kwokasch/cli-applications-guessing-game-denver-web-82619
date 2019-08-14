@@ -9,6 +9,6 @@ def run_guessing_game
   elsif input == "exit"
     puts "Goodbye!"
   else  
-    puts "Sorry! The computer guessed #{comp_guess.chomp}."
+    puts "Sorry! The computer guessed #{comp_guess}."
   end
 end
