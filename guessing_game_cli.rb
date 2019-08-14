@@ -10,8 +10,6 @@ def run_guessing_game
   elsif input = "exit" 
     puts "Goodbye!"
   else
-    puts 
+    puts "Invalid input"
   end
 end
-if input == "exit"
-    puts "Goodbye!"
